@@ -1,0 +1,7 @@
+		PROGRAM 
+		DIMENSION A(10)
+		DIMENSION B(10)
+		EQUIVALENCE (A(1),B(1))
+		A(5)=2.0
+		WRITE(*,*), B(5)
+		END
